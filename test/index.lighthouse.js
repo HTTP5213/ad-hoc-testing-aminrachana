@@ -6,7 +6,7 @@ const app = express();
 
 
 export async function performance() {
-    const port = 4321;
+    const port = 4319;
     app.use(express.static('public'));
 
     const server = app.listen(port, () => console.log(`LH Server listening on port: ${port}`));
